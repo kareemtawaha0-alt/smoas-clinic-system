@@ -1,0 +1,10 @@
+.patientInput{min-width:260px;background:rgba(255,255,255,.05);border:1px solid rgba(255,255,255,.12);border-radius:12px;padding:10px;color:#e8eefc;outline:none}
+.timeline{display:grid;gap:10px;margin-top:6px}
+.tlItem{display:grid;grid-template-columns:18px 1fr;gap:10px;align-items:flex-start}
+.tlDot{width:10px;height:10px;border-radius:999px;background:rgba(110,168,255,.9);margin-top:6px}
+.tlBody{padding:10px;border-radius:14px;border:1px solid rgba(255,255,255,.10);background:rgba(255,255,255,.04)}
+.tlTitle{font-weight:900}
+.tlSub{opacity:.75;margin-top:4px;font-size:13px}
+.tlStatus{margin-left:8px;padding:2px 8px;border-radius:999px;font-size:12px;border:1px solid rgba(255,255,255,.14);opacity:.9}
+.tlStatus.completed{background:rgba(0,255,170,.08);border-color:rgba(0,255,170,.25)}
+.tlStatus.cancelled{background:rgba(255,0,84,.10);border-color:rgba(255,0,84,.25)}

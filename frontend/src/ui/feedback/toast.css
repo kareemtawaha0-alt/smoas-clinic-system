@@ -1,0 +1,6 @@
+.toasts{position:fixed;right:14px;bottom:14px;display:flex;flex-direction:column;gap:10px;z-index:50}
+.toast{min-width:260px;max-width:360px;background:rgba(255,255,255,.06);border:1px solid rgba(255,255,255,.12);border-radius:16px;padding:12px 12px;box-shadow:0 10px 30px rgba(0,0,0,.35)}
+.toastTitle{font-weight:900}
+.toastMsg{opacity:.8;margin-top:4px;font-size:13px}
+.toast.warning{border-color:rgba(255,178,0,.25);background:rgba(255,178,0,.10)}
+.toast.success{border-color:rgba(0,255,170,.25);background:rgba(0,255,170,.08)}

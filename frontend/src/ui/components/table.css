@@ -1,0 +1,6 @@
+.tableWrap{overflow:auto;border-radius:16px;border:1px solid rgba(255,255,255,.08)}
+.table{width:100%;border-collapse:separate;border-spacing:0;background:rgba(0,0,0,.12)}
+th,td{padding:10px 12px;text-align:left;border-bottom:1px solid rgba(255,255,255,.06);font-size:13px}
+th{font-weight:800;opacity:.9;background:rgba(255,255,255,.03);position:sticky;top:0}
+tr:hover td{background:rgba(255,255,255,.03)}
+.empty{opacity:.7}
